@@ -44,7 +44,11 @@ module.exports = {
 		"no-warning-comments": "warn",
 		"radix": "error",
 		"semi": ["error", "always"],
-		"space-before-blocks": ["error", "never"],
+		"space-before-blocks": ["error", {
+			"functions": "never",
+			"keywords": "never",
+			"classes": "always",
+		}],
 		"space-before-function-paren": ["error", "never"],
 		"space-in-parens": "error",
 		"strict": ["error"],
