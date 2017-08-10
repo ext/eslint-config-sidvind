@@ -51,6 +51,8 @@ module.exports = {
 		}],
 		"space-before-function-paren": ["error", "never"],
 		"space-in-parens": "error",
+		"space-infix-ops": "error",
+		"space-unary-ops": "error",
 		"strict": ["error"],
 		"wrap-iife": "error",
 		"yoda": "error",
