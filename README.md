@@ -24,3 +24,10 @@ In your .eslintrc file:
 * `sidvind/es2015` for ES2015 (ES6) support.
 * `sidvind/es2016` for ES2016 (ES7) support.
 * `sidvind/es2017` for ES2017 (ES8) support.
+
+## Complementary configs
+
+Used in addition to the primary config.
+
+* `angular` for AngularJS 1.x (requires `eslint-plugin-angular`)
+* `jest` for Jest (requires `eslint-plugin-jest`)
