@@ -22,7 +22,6 @@ module.exports = {
 		"indent": ["error", "tab"],
 		"key-spacing": ["error", {"beforeColon": false, "afterColon": true, "mode": "minimum"}],
 		"keyword-spacing": "error",
-		"linebreak-style": ["error", "unix"],
 		"max-depth": ["warn", 4],
 		"new-cap": "error",
 		"new-parens": "error",
